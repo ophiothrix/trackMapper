@@ -1,0 +1,7 @@
+genes="genes.txt" # path to the text file containing the names of the genes to be plotted. By default it is located in the script directory
+pathToBam="~/Downloads/bam.files/h3k27ac" # Path to the directory containing bam files and their indices
+window=10000 # Smoothing window - the larger the number, the smoother the tracks
+upperlim=10 # Upper limit for y axis
+upstream=0.3 # Region (Fraction of the gene length) to plot upstream the gene
+downstream=0.3 # Region (Fraction of the gene length) to plot downstream the gene
+useNormalisedLibrarySize=F # If T - library sizes are normalised for composition bias. If F or not specified - raw library sizes are used
