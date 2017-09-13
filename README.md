@@ -30,9 +30,15 @@ For each gene to be plotted, the script extracts all the reads overlapping the g
 The following parameters are specified inside `MapNormTracks.param.txt` file.
 
 *genes* - string specifying the path to the file with gene symbols to be plotted. Defaults to `genes.txt` file in the script directory.
+
 *pathToBam* - string specifying path to the directory containing bam files and their indices
+
 *window* - integer specifying the size of smoothing window - the larger the number, the smoother the tracks.
+
 *upperlim* - integer specifying the upper limit for y axis of the coverage tracks.
+
 *upstream* - numeric specifying the size of the flanking region upstream of the gene, expressed as the fraction of the gene length. E.g. 0.3 - will plot the region equal to 30% of the gene length upstream of the gene. 
+
 *downstream* - same as above but for the region downstream of the gene.
+
 *useNormalisedLibrarySize* - logical specifying whether library size should be normalised or not.
