@@ -19,7 +19,7 @@ For each gene to be plotted, the script extracts all the reads overlapping the g
 ## Limitations and notes
 1. The annotation files are only provided for mm10 reference genome. Therefore the script is currently only available to be used with bam files aligned to mm10 annotation. I might add hg19 annotation in the future. But for now feel free to branch the repository or get in touch if you have any specific requirements (i.e. specific reference genome).
 2. There is limited space to plot the file name in the title panel. So try to make your file names as short as practical.
-3. The current script plots each of the bam files separately. It is possible to average the coverages between the replicates. But since it's impossible to predict how the replicated are denoted in file names, this functionality is currently unavailable.
+3. The current script plots each of the bam files separately. It is possible to average the coverages between the replicates. But since it's impossible to predict how the replicates are denoted in file names, this functionality is currently unavailable.
 
 ## Usage
 1. Specify genes over which the coverage is to be plotted in `genes.txt` file.
